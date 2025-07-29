@@ -1,0 +1,27 @@
+{
+  "name": "mcc.2025",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "index.js",
+  "scripts": {
+    "start": "jekyll serve --drafts",
+    "gen:events": "node scripts/gen_events.js",
+    "prebuild": "npm run gen:events",
+    "build": "jekyll build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uapmnlcorinthan/uapmnlcorinthan.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uapmnlcorinthian/uapmnlcorinthian.github.io/issues"
+  },
+  "homepage": "https://github.com/uapmnlcorinthian/uapmnlcorinthian.github.io#readme",
+  "devDependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
